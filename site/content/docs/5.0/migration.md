@@ -21,6 +21,7 @@ toc: true
 ### JavaScript
 
 - The default value for the `fallbackPlacements` is changed to `['top', 'right', 'bottom', 'left']` for better placement of popper elements.
+- All the events for the dropdown are now triggered on the dropdown toggle button and then bubbled up to the parent element.
 
 ## v5.0.0-beta1
 
