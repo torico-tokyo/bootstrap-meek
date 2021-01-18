@@ -417,7 +417,7 @@ class Carousel extends BaseComponent {
         if (Number.parseInt(indicators[i].getAttribute('data-bs-slide-to'), 10) === this._getItemIndex(element)) {
           indicators[i].classList.add(CLASS_NAME_ACTIVE)
           indicators[i].setAttribute('aria-current', 'true')
-          break;
+          break
         }
       }
     }
