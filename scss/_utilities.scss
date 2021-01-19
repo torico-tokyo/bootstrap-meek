@@ -24,6 +24,7 @@ $utilities: map-merge(
       property: overflow,
       values: auto hidden visible scroll,
     ),
+    // scss-docs-start display-utilities
     "display": (
       responsive: true,
       print: true,
@@ -31,6 +32,7 @@ $utilities: map-merge(
       class: d,
       values: inline inline-block block grid table table-row table-cell flex inline-flex none
     ),
+    // scss-docs-end display-utilities
     "shadow": (
       property: box-shadow,
       class: shadow,
